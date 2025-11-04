@@ -1,15 +1,10 @@
 package learn;
-
-//A simple Java program to demonstrate
-//Tic-Tac-Toe Game
 import java.util.*;
 
 public class tik_toe_game {
-
  static String[] board;
  static String turn;
 
- // CheckWinner method will decide the winner
  static String checkWinner() {
      for (int a = 0; a < 8; a++) {
          String line = null;
@@ -130,3 +125,4 @@ public class tik_toe_game {
      in.close();
  }
 }
+
