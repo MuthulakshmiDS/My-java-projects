@@ -1,4 +1,3 @@
-// Java Program to demonstrates the Number guessing game
 package learn;
 import java.util.Scanner;
 
@@ -14,18 +13,13 @@ public class game {
         // Number of attempts
         int K = 5;
 
-        System.out.println(
-            "A number is chosen between 1 and 100.");
-        System.out.println(
-            "You have " + K
-            + " attempts to guess the correct number.");
+        System.out.println("A number is chosen between 1 and 100.");
+        System.out.println("You have " + K + " attempts to guess the correct number.");
 
-        // Loop for K attempts
         for (int i = 0; i < K; i++) {
             System.out.print("Enter your guess: ");
             int guess = sc.nextInt();
 
-            // Check conditions
             if (guess == number) {
                 System.out.println(
                     " Congratulations! You guessed the correct number.");
@@ -55,4 +49,5 @@ public class game {
     {
         guessingNumberGame();
     }
+
 }
